@@ -16,6 +16,7 @@ import { Product } from '../product.model'
 })
 export class ProductComponent implements OnChanges{
 
+
     @Input() product: Product;
     @Output() productClicked: EventEmitter<any> = new EventEmitter();
 
